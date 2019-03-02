@@ -56,9 +56,9 @@ $result = json_decode($output);
     // media_type can be non-image,
     // don't show img element if type is not image
     if ($item->media_type === 'image'):?>
-    <p>
-        <img src="<?= $item->url ?>" />
-    </p>
+        <p>
+            <img src="<?= $item->url ?>"/>
+        </p>
     <?php endif; ?>
     <p>
         <?= $item->explanation ?>
